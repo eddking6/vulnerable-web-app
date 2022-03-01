@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  web-among:
+    build: .
+    ports:
+      - 6231:5000
